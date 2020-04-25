@@ -46,6 +46,12 @@
         });
     </script> -->
 
+    <script>
+        FB.getLoginStatus(function (response) {
+            alert(response.authResponse.userID)
+        });
+    </script>
+
 </body>
 
 </html>
